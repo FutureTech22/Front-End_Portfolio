@@ -1,0 +1,6 @@
+
+<div class="projects" ng-repeat="projects in vm.projects">
+    <img src="{{projects.img}}">
+    <h1>{{projects.name}}</h1>
+    <a class="btn btn-primary" ui-sref='singleProject({id:projects.id})'>Project Details</a>
+</div>

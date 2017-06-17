@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html ng-app="routing" lang='en'>
+
+<head>
+    <meta charset='utf-8'>
+    <title>Portfolio</title>
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/portfolio.css">
+    <link rel="stylesheet" href="css/about.css">
+    <link href="https://fonts.googleapis.com/css?family=Kumar+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <script src="https://use.fontawesome.com/32cc6c2324.js"></script>
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/4f6a4b08efdad6bb29f9cc801f5c07e263b39907/devicon.min.css">
+</head>
+
+<body>
+    <header>
+        <div class='header'>Brett Williams</div>
+        <!---animated menu -->
+        <div class="base">
+            <div class="menu">
+                <div class="icon">
+                    <div class="bar"></div>
+                </div>
+            </div>
+            <div class="icons">
+                <i class="fa fa-user" aria-hidden="true">About</i>
+                <i class="fa fa-book"  aria-hidden="true">Portfolio</i>
+                <i class="fa fa-volume-control-phone" aria-hidden="true">Contact</i>
+            </div>
+            <div class="section">
+                <div class="cover1">
+                    <div class="cover2">
+                        <a class="section-static content" ui-sref='portfolio'></a>
+                    </div>
+                </div>
+            </div>
+            <a class="section-static top" ui-sref='about'></a>
+            <a class="section-static bottom" ui-sref='contact'></a>
+        </div>
+    </header>
+    <!-- animated menu end -->
+    </header>
+    <div class='mainView container'>
+         <main ui-view='content'></main>
+            <footer>
+            </footer>
+            <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.4.2/angular-ui-router.min.js"></script>
+            <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+            <script src='js/main.js'></script>
+            <script src='js/services/api.js'></script>
+            <script src='js/controllers/mainController.js'></script>
+            <script src='js/controllers/projectsController.js'></script>
+
+</body>
+</div>
+
+</html>

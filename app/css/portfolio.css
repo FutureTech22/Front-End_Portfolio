@@ -1,0 +1,11 @@
+img {
+  margin-top: 100px;
+  width: 33%;
+  display: inline;
+  margin-top: 3px;
+  border: 2px solid black; }
+
+li {
+  list-style-type: none;
+  display: inline;
+  color: white; }

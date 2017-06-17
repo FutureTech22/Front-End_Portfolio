@@ -1,0 +1,15 @@
+#aboutHash {
+  border-bottom: 2px solid black;
+  width: 9%; }
+
+#skillsHash {
+  border-bottom: 2px solid black;
+  width: 4.5%;
+  margin-left: 36.8%; }
+
+.devIcons {
+  font-size: 50px; }
+
+h1#skills {
+  text-align: center;
+  margin-right: 19%; }
